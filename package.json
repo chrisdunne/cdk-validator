@@ -1,0 +1,33 @@
+{
+  "name": "cdk-validator",
+  "version": "1.0.0",
+  "description": "add validation to your cdk infrastructure",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm t"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisdunne/cdk-validator.git"
+  },
+  "keywords": [
+    "aws",
+    "cdk"
+  ],
+  "author": "Christopher Dunne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisdunne/cdk-validator/issues"
+  },
+  "homepage": "https://github.com/chrisdunne/cdk-validator#readme",
+  "dependencies": {
+    "@aws-cdk/aws-s3": "^1.108.1",
+    "@aws-cdk/core": "^1.108.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.4",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.2"
+  }
+}
